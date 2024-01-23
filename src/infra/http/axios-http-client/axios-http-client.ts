@@ -10,7 +10,7 @@ axios.defaults.baseURL = '';
 
 axios.defaults.withCredentials = true;
 
-// Info Axios
+// Axios
 export class AxiosHttpClient implements HttpClient {
   async request(data: HttpRequest): Promise<HttpResponse> {
     let axiosResponse: AxiosResponse;

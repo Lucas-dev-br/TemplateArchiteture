@@ -1,7 +1,7 @@
 import React from 'react'
 import {ExamplePage} from '../../../../presentation/modules/example'
-import { makeExample } from '../../http/api-url-factory'
+import { makeExampleApiCall } from '../../usecases/example/remote-example-factory'
 
 export const MakeExample: React.FC = () => {
-    return <ExamplePage exampleApi={makeExample} />
+    return <ExamplePage exampleApi={makeExampleApiCall} />
 }
