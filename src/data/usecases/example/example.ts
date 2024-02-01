@@ -7,10 +7,6 @@ import {
 import {
   Examples
 } from '../../../domain/usecases/example/example';
-import {
-  StudentByIdResponse,
-  StudentsResponse,
-} from '../../../domain/model/responses/students-response';
 import { ParamsExample } from '@/domain/model/params/examples/example';
 import { GetExamples } from '@/domain/model/responses/examples/examples';
 
